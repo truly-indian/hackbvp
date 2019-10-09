@@ -31,7 +31,7 @@ MongoClient.connect(url, function(err, client) {
     console.log("Found the following records");
     //console.log(docs)
     dc = docs
-    console.log(dc[0].yc[0][0])
+    console.log(dc)
   });
 
   client.close();
